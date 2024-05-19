@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice of differnt sort of width</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .width-auto{
+        border: 1px solid red;
+        height: 50px;
+    }
+
+    .width-100{
+        border: 10px solid red;
+        height: 50px;
+        background-color: blue;
+        width: 100%;
+    }
+    .max-content{
+        border: 1px solid red;
+        height: 50px;
+        background-color: blue;
+        width: max-content;
+    }
+    .min-content{
+        border: 1px solid red;
+        height: 50px;
+        background-color: blue;
+        width: min-content;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        
+    }
+    .max{
+        border: 2px solid green;
+        width: max-content;
+        margin: auto;
+    }
+    .fit{
+        border: 2px solid pink;
+        width: fit-content;
+    }
+    .vw{
+        border: 2px solid rebeccapurple;
+        width: 100vw;
+    }
+
+</style>
+<body>
+    <!-- width-auto  -->
+    <h1>use of width-auto</h1>
+    <p>Browser usually use this auto width. if we use width-auto it will not show any horizontal scroll bar whatever items contain in this container</p>
+    <div class="width-auto">there is no scroll bar if i do the responsive</div>
+    <!-- width-100% -->
+    <h1>use of width-100%</h1>
+    <p>if i use width-100%, there will be a horizontal scroll bar as it will leave the place for the border or others. if border take 10px in both side it will leave the place 20px which will creat a horixontal scroll bar in case of responsive</p>
+    <div class="width-100"></div>
+    <!-- max-content  -->
+    <h1>use of max-content</h1>
+    <p>max-content content indicate that a content will take as much place as it needs, even if we use width-auto or width-100%</p>
+    <div class="max-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, repellat?</div>
+    <!-- min-content -->
+    <h1>use of min-content</h1>
+    <p>mix-content indicate that a content will focus on the biggest element in his contaienr and based on the width of biggest content. it will take the content</p>
+    <div class="min-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, repellat?</div>
+    <!-- where to use max-content or min-content  -->
+    <h1 class="max">i love you</h1>
+    <!-- fit-content  -->
+    <h1>use of fit content</h1>
+    <p>fit-content refers combination of min and max content as it takes the space same as max-content and when do the responsive it will break the line and take the width of the biggest element in the content same as min-content</p>
+    <div class="fit">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores error placeat saepe amet? Odio, eaque debitis commodi sed officiis voluptatum.lovelovelvoevoelvoelvoelvo</div>
+
+    <!-- vw view width -->
+    <h1>how to use view width (VW)</h1>
+    <p>vw means if i say width:100vw it will take the whole width of the viewport. but if screen gets smaller it will be smaller but take the whole width of the small size. it is very useful for the responsive</p>
+    <div class="vw">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel fuga illo necessitatibus earum consectetur mollitia animi, ullam magnam id harum quasi nemo facere illum architecto! Quaerat iure earum, obcaecati consequuntur totam ea facere, distinctio delectus repellat voluptatem cum, possimus alias reprehenderit facilis nesciunt autem sunt doloremque. Sit pariatur recusandae molestias!</div>
+
+    <!-- what is difference between width:100% and width:vw?  -->
+    <p>width:percentage works relative to the parent if parent har 500px width and i put 50% for the child width it will take 50% of the parent which mean 250px. whereas in case vw it will always work relative to the device width in all the conditions. even if it is a child content, after using width:vw it will start to work related to the viewport width.</p>
+    <h5>we can use vw in the font size which helps to make the font responsive</h5>
+</body>
+</html>

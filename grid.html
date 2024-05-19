@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice of GRID</title>
+</head>
+<style>
+    .container{
+        border: 1px solid red;
+        
+        display: grid;
+        /* grid-template-columns: repeat(auto-fit, 100px) as i have given the fix width so after taking all the div same width there are some vacant places. so if want to fit them autometically then i need to use, see the next code--*/
+        /* grid-template-columns: repeat(auto-fit, minmax(100px,1fr)); */
+        grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+    }
+    .grid-item{
+      
+    }
+    .one{
+        background-color: red;
+    }
+    .two{
+        background-color: rgb(242, 255, 0);
+    }
+    .three{
+        background-color: slategray;
+    }
+    .four{
+        background-color: seagreen;
+    }
+    .five{
+        background-color: tomato;
+    }
+    .six{
+        background-color: saddlebrown;
+    }
+    .seven{
+        background-color: pink;
+    }
+    .eight{
+        background-color: blue;
+    }
+    .nine{
+        background-color: green;
+    }
+</style>
+<body>
+    <h1>Grid Practice</h1>
+    <p>Mozilla firefox is the very good browser for the grid display</p>
+    <div class="container">
+        <div class="grid-item one">1</div>
+        <div class="grid-item two">2</div>
+        <div class="grid-item three">3</div>
+        <div class="grid-item four">4</div>
+        <div class="grid-item five">5</div>
+        <div class="grid-item six">6</div>
+        <div class="grid-item seven">7</div>
+        <div class="grid-item eight">8</div>
+        <div class="grid-item nine">9</div>
+    </div>
+</body>
+</html>

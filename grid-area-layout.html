@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice of Grid Area</title>
+</head>
+<style>
+    .grid-container{
+       display: grid;
+       grid-template-columns: repeat(12,1fr);
+       grid-template-rows: repeat(12,1fr);
+       height: 100vh;
+       
+    }
+    .header{
+        background-color: blue;
+        grid-column: 1/13;
+        color: white;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav{ 
+        background-color: red; 
+        grid-row: 2/12;
+        grid-column: 1/4;
+    }
+    .title{
+        background-color:green ;
+        grid-column: 4/13;
+    }
+    .article-1{
+        background-color: steelblue;
+        grid-row: 3/12;
+        grid-column: 4/7;
+    }
+    .article-2{
+        background-color: saddlebrown;
+        grid-row: 3/12;
+        grid-column: 7/10;
+    }
+    .article-3{
+        background-color: tomato;
+        grid-row: 3/12;
+        grid-column: 10/13;
+    }
+    .footer{
+        background-color: chartreuse;
+        grid-column: 1/13;
+    }
+
+</style>
+<body>
+   <div class="grid-container">
+    <div class="header">Header</div>
+    <div class="nav">Nav</div>
+    <div class="title">Title</div>
+    <div class="article-1">Article-1</div>
+    <div class="article-2">Article-2</div>
+    <div class="article-3">Article-3</div>
+    <div class="footer">Footer</div>
+   </div>
+    
+</body>
+</html>
