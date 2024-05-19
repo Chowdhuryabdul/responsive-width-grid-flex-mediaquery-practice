@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+nav{
+    background-color: rgba(137, 43, 226, 0.829);
+}
+.nav{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-image {
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 50%;
+}
+
+.nav-image img {
+    width: 100px;
+    object-fit: cover;
+}
+
+.nav-image p{
+    font-size: 24px;
+}
+
+.nav-icon-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.nav-icon-container a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.btn-primary {
+    background-color: pink;
+    padding: 15px; 
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* banner section  */
+
+.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.476);
+    border-radius: 10px;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+ .banner-img{  
+    flex: 1
+}
+.banner-img img{
+    width: 100%;
+}
+
+.banner-content{
+    flex: 1;
+    padding-left: 200px;
+}
+
+.banner-title{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.banner-text{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0;
+    
+}
+
+.banner-icon a{
+    margin-right: 10px;
+    
+}
+
+.btn-banner{
+    padding: 10px 15px;
+    border-color: blueviolet;
+    margin-right: 10px;
+    margin-top:20px ;
+    border: 1px solid rgba(137, 43, 226, 0.741);
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-title{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+/* card section  */
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.card-1{
+   background-color: silver; 
+   border-radius: 10px;
+   padding: 10px;
+   margin: 10px;
+   
+}
+.card-1 img{
+    width: 100%;
+}
+
+
+
+.card-icon{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    gap: 10px;
+}
+
+.card-icon h5{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+
