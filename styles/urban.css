@@ -83,7 +83,8 @@ nav {
 }
 
 .banner-content {
-    width: 50%;;
+    width: 50%;
+    ;
     padding-left: 200px;
 }
 
@@ -165,12 +166,12 @@ ul {
 
 /* tea shirt section  */
 
-.tea-shirts-section{
+.tea-shirts-section {
     background-color: rgba(0, 0, 255, 0.271);
     margin-top: 100px;
 }
 
-.shirt-container{
+.shirt-container {
     display: flex;
     align-items: center;
     max-width: 1440px;
@@ -178,12 +179,12 @@ ul {
     padding: 20px;
 }
 
-.tea-shirt{
+.tea-shirt {
     width: 50%;
     position: relative;
 }
 
-.discount{
+.discount {
     background-color: burlywood;
     border-radius: 50%;
     height: 80px;
@@ -197,28 +198,29 @@ ul {
     right: 100px;
 
 }
-.tea-shirt img{
+
+.tea-shirt img {
     width: 70%;
     height: 100%;
     display: block;
     margin: 0 auto;
 }
 
-.shirt-content{
+.shirt-content {
     width: 50%;
-   
+
 }
 
-.shirt-content h5{
+.shirt-content h5 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-.shirt-content p{
+.shirt-content p {
     font-size: 18px;
 }
 
-.shirt-content button{
+.shirt-content button {
     background-color: transparent;
     font-size: 18px;
     padding: 10px 15px;
@@ -234,49 +236,49 @@ ul {
 } */
 
 
-.review-container{
+.review-container {
     display: flex;
     margin-top: 50px;
-    gap: 10px;  
+    gap: 10px;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
 }
 
 
-.customer-card-1{
+.customer-card-1 {
     background-color: rgba(137, 43, 226, 0.376);
     padding: 10px;
     border-radius: 10px;
     flex-basis: 300px;
 }
 
-.customer-card-1 p{
+.customer-card-1 p {
     font-size: 18px;
 }
 
-.customer-content{
+.customer-content {
     display: flex;
     align-items: center;
     gap: 15px;
     margin-bottom: 20px;
-   
+
 }
 
-.customer-content img{
+.customer-content img {
     height: 40px;
     width: 40px;
     display: block;
 
 }
 
-.customer-content p{
+.customer-content p {
     font-size: 18px;
 }
 
 /* footer  */
 
-footer{
+footer {
     background-color: blueviolet;
     height: 400px;
     text-align: center;
@@ -284,18 +286,18 @@ footer{
     padding-top: 100px;
 }
 
-.footer-content{
+.footer-content {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 
-.footer-content img{
+.footer-content img {
     width: 50px;
     object-fit: cover;
 }
-.footer-content p{
+
+.footer-content p {
     font-size: 24px;
 }
-

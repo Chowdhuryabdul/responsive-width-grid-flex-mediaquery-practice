@@ -8,7 +8,7 @@
         flex-direction: column;
     }
 
-    .nav-image{
+    .nav-image {
         display: flex;
         justify-content: center;
     }
@@ -18,7 +18,8 @@
         margin: 10px;
     }
 
-    .banner-content, .banner-img{
+    .banner-content,
+    .banner-img {
         width: 100%;
         text-align: center;
     }
@@ -26,7 +27,7 @@
     .nav-icon-container {
         width: 100%;
         flex-direction: column;
-        
+
     }
 
     .nav-icon-container a {
@@ -63,7 +64,8 @@
         margin: 10px;
     }
 
-    .banner-content, .banner-img{
+    .banner-content,
+    .banner-img {
         width: 100%;
         text-align: center;
     }
@@ -107,7 +109,8 @@
         margin: 10px;
     }
 
-    .banner-content, .banner-img{
+    .banner-content,
+    .banner-img {
         width: 100%;
     }
 
@@ -136,27 +139,27 @@
         grid-template-columns: 1fr;
 
     }
-    .shirt-container{
+
+    .shirt-container {
         flex-direction: column;
     }
 
-    .tea-shirt{  
+    .tea-shirt {
         width: 100%;
     }
 
-   .discount{
-    
-   }
-    .tea-shirt img{
+    .discount {}
+
+    .tea-shirt img {
         width: 100%;
         height: 100%;
         display: block;
         margin: 0 auto 20px;
 
     }
-    
-    .shirt-content{
+
+    .shirt-content {
         width: 100%;
-       
+
     }
 }
