@@ -8,10 +8,11 @@
 }
 
 
-nav{
+nav {
     background-color: rgba(137, 43, 226, 0.829);
 }
-.nav{
+
+.nav {
     display: flex;
     max-width: 1440px;
     margin: 0 auto;
@@ -29,11 +30,11 @@ nav{
     object-fit: cover;
 }
 
-.nav-image p{
+.nav-image p {
     font-size: 24px;
 }
 
-.nav-icon-container{
+.nav-icon-container {
     width: 50%;
     display: flex;
     justify-content: space-between;
@@ -41,7 +42,7 @@ nav{
     color: white;
 }
 
-.nav-icon-container a{
+.nav-icon-container a {
     color: white;
     text-decoration: none;
 
@@ -50,7 +51,7 @@ nav{
 
 .btn-primary {
     background-color: pink;
-    padding: 15px; 
+    padding: 15px;
     color: black;
     font-size: 16px;
     font-weight: 600;
@@ -61,7 +62,7 @@ nav{
 
 /* banner section  */
 
-.banner{
+.banner {
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
@@ -72,87 +73,229 @@ nav{
     margin-top: 50px;
 }
 
- .banner-img{  
-    flex: 1
-}
-.banner-img img{
-    width: 100%;
+.banner-img {
+    width: 50%;
 }
 
-.banner-content{
-    flex: 1;
+.banner-img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.banner-content {
+    width: 50%;;
     padding-left: 200px;
 }
 
-.banner-title{
+.banner-title {
     font-size: 48px;
     font-weight: 600;
+    background-image: linear-gradient(to bottom, green, blue);
+    color: transparent;
+    -webkit-background-clip: text;
 }
 
-.banner-text{
+.banner-text {
     font-size: 16px;
     font-weight: 400;
     margin: 20px 0;
-    
+
 }
 
-.banner-icon a{
+.banner-icon a {
     margin-right: 10px;
-    
 }
 
-.btn-banner{
+.btn-banner {
     padding: 10px 15px;
     border-color: blueviolet;
     margin-right: 10px;
-    margin-top:20px ;
+    margin-top: 20px;
     border: 1px solid rgba(137, 43, 226, 0.741);
 }
 
-main {
+
+.card-section {
     max-width: 1440px;
     margin: 0 auto;
 }
 
-.main-title{
+.main-title {
     font-size: 24px;
     font-weight: 600;
     text-align: center;
 }
+
 /* card section  */
 
-.card-container{
+.card-container {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    
+    grid-template-columns: repeat(4, 1fr);
+
 }
-.card-1{
-   background-color: silver; 
-   border-radius: 10px;
-   padding: 10px;
-   margin: 10px;
-   
+
+.card-1 {
+    background-color: silver;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
 }
-.card-1 img{
-    width: 100%;
+
+.card-1 img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 }
 
 
-
-.card-icon{
+.card-icon {
     display: flex;
     justify-content: space-between;
 }
-ul{
+
+ul {
     display: flex;
     gap: 10px;
 }
 
-.card-icon h5{
+.card-icon h5 {
     font-size: 18px;
     font-weight: 700;
 }
 
+/* tea shirt section  */
+
+.tea-shirts-section{
+    background-color: rgba(0, 0, 255, 0.271);
+    margin-top: 100px;
+}
+
+.shirt-container{
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tea-shirt{
+    width: 50%;
+    position: relative;
+}
+
+.discount{
+    background-color: burlywood;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+
+}
+.tea-shirt img{
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.shirt-content{
+    width: 50%;
+   
+}
+
+.shirt-content h5{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.shirt-content p{
+    font-size: 18px;
+}
+
+.shirt-content button{
+    background-color: transparent;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* customer section  */
+
+/* .customer-section{
+    max-width: 1440px;
+    margin: 0 auto;
+} */
 
 
+.review-container{
+    display: flex;
+    margin-top: 50px;
+    gap: 10px;  
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.customer-card-1{
+    background-color: rgba(137, 43, 226, 0.376);
+    padding: 10px;
+    border-radius: 10px;
+    flex-basis: 300px;
+}
+
+.customer-card-1 p{
+    font-size: 18px;
+}
+
+.customer-content{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+   
+}
+
+.customer-content img{
+    height: 40px;
+    width: 40px;
+    display: block;
+
+}
+
+.customer-content p{
+    font-size: 18px;
+}
+
+/* footer  */
+
+footer{
+    background-color: blueviolet;
+    height: 400px;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-content img{
+    width: 50px;
+    object-fit: cover;
+}
+.footer-content p{
+    font-size: 24px;
+}
 

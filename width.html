@@ -50,6 +50,26 @@
         width: 100vw;
     }
 
+    .black{
+        height: 200px;
+        width: 200px;
+        border: 1px solid red;
+        position: relative;
+    }
+
+    .cross{
+        background-color: red;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 40px;
+        left: 50px;
+    }
+
 </style>
 <body>
     <!-- width-auto  -->
@@ -83,5 +103,11 @@
     <!-- what is difference between width:100% and width:vw?  -->
     <p>width:percentage works relative to the parent if parent har 500px width and i put 50% for the child width it will take 50% of the parent which mean 250px. whereas in case vw it will always work relative to the device width in all the conditions. even if it is a child content, after using width:vw it will start to work related to the viewport width.</p>
     <h5>we can use vw in the font size which helps to make the font responsive</h5>
+
+    <div class="black">
+        <div class="cross">
+            30%
+        </div>
+    </div>
 </body>
 </html>
